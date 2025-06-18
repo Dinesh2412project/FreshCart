@@ -1,0 +1,105 @@
+[
+    {
+        "id" :1,
+        "pic" :"/images/1.png",
+        "type" :"snack&munchies",
+        "name" :"Haldiram's Sev Bhujia",
+        "persent" :"/images/11.png",
+        "per" :4.5,
+        "rate" : 18,
+        "oldrate" :24
+    }
+    ,
+    {
+        "id" :2,
+        "pic" :"/images/2.png",
+        "type" :"bakery & biscuits",
+        "name" :"NutriChoice Digestive",
+        "persent" :"/images/11.png",
+        "per" :4.5,
+        "rate" : 18,
+        "oldrate" :24
+    }
+    ,
+    {
+        "id" :3,
+        "pic" :"/images/3.png",
+        "type" :"bakery & biscuits",
+        "name" :"Cadbury 5 Star Chocolate",
+        "persent" :"/images/11.png",
+        "per" :4.5,
+        "rate" : 18,
+        "oldrate" :24
+    }
+    ,
+    {
+        "id" :4,
+        "pic" :"/images/four.png",
+        "type" :"snack&munchies",
+        "name" :"Onion Flavour Potato",
+        "persent" :"/images/11.png",
+        "per" :4.5,
+        "rate" : 18,
+        "oldrate" :24
+    },
+    {
+        "id" :5,
+        "pic" :"/images/five.png",
+        "type" :"instant food",
+        "name" :"Salted Instant Popcorn",
+        "persent" :"/images/11.png",
+        "per" :4.5,
+        "rate" : 18,
+        "oldrate" :24
+    },
+    {
+        "id" :6,
+        "pic" :"/images/six.png",
+        "type" :"diary,bread & eggs",
+        "name" :"Blueberry Greek Yogurt",
+        "persent" :"/images/11.png",
+        "per" :4.5,
+        "rate" : 18,
+        "oldrate" :24
+    },
+    {
+        "id" :7,
+        "pic" :"/images/sevan.png",
+        "type" :"diary,bread & eggs",
+        "name" :"Britannia Cheese Slices",
+        "persent" :"/images/11.png",
+        "per" :4.5,
+        "rate" : 18,
+        "oldrate" :24
+    },
+    {
+        "id" :8,
+        "pic" :"/images/eight.png",
+        "type" :"Instant Food",
+        "name" :"Kellogg's Original Cereals",
+        "persent" :"/images/11.png",
+        "per" :4.5,
+        "rate" : 18,
+        "oldrate" :24
+    },
+    {
+        "id" :9,
+        "pic" :"/images/night.png",
+        "type" :"snack&munchies",
+        "name" :"Slurrp Millet Chocolate",
+        "persent" :"/images/11.png",
+        "per" :4.5,
+        "rate" : 18,
+        "oldrate" :24
+    },
+    {
+        "id" :10,
+        "pic" :"/images/ten.png",
+        "type" :"diary,bread & eggs",
+        "name" :"Amul Butter - 500 g",
+        "persent" :"/images/11.png",
+        "per" :4.5,
+        "rate" : 18,
+        "oldrate" :24
+    }
+]

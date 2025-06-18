@@ -1,0 +1,188 @@
+.daily-sells-section{
+    width: 100%;
+    height: 95vh;
+}
+.daily-sells-title{
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+.product-sell-grid{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: 10px;
+    height: 90%;
+    gap: 10px;
+}
+.highlighted-product-card{
+    width: 300px;
+    height: 460px;
+    background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTZIu65uVaES-fg9pwlHu2at7MSlIeurBKPhpa1h7kbxn7TFufG");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 20px 0 black;
+}
+.highlight-title{
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.highlight-subtext{
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.shop-now-btn{
+    margin-left: 20px;
+    padding: 9px 25px;
+    margin-top: 10px;
+    background-color: rgb(25, 199, 25);
+    color: white;
+    border: none;
+    font-weight: 700;
+    border-radius: 10px;   
+}
+.shop-now-btn:hover{
+    background-color: rgb(19, 99, 19);
+    border: 1px solid white;
+    
+}
+.sells-card{
+     width: 300px;
+    height: 460px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(233, 231, 231);
+    transition: transform .3s ease;
+}
+.sells-card:hover{
+    transform:translateY(-5px);
+    box-shadow: 0 0 20px 0 rgb(4, 54, 4);
+}
+.sells-card img{
+    width:70%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 50px;
+}
+.product-category{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 3px;
+    color: rgb(155, 153, 153);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.product-name{
+    font-size: 17px;
+    margin-left: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.price-section{
+    display: flex;
+    justify-content:space-around;
+}
+.current-price{
+    margin-top: 20px;
+    color: black;
+}
+.original-price{
+    text-decoration: line-through;
+    color: grey;
+}
+.price-section img{
+    width: 30%;
+    height: 100%;
+}
+.add-to-cart-btn{
+    padding: 9px 30%;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(29, 206, 29);
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.add-to-cart-btn:hover{
+ background-color: rgb(26, 131, 26);   
+}
+.countdown-timer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 7px;
+    margin-top: 10px;
+}
+.time-box{
+    border: 1px solid rgb(224, 219, 219);
+    padding: 3px 15px;
+    border-radius: 10px;
+}
+.time-box h5{
+    font-size: 14px
+}
+.time-box h4{
+    font-size: 15px;
+    color: gray;
+    margin-bottom:0px;
+    text-transform:capitalize;
+    
+}      
+
+                           /*SECOND SELLS METHODS OF CSS........*/
+
+
+
+@media screen and (max-width:428px) {
+
+
+
+.daily-sells-section{
+    width: 100%;
+    height:80vh;
+}
+
+ .product-sell-grid{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin-left: 20px;
+    height: 70%;
+    gap: 10px;
+}
+.highlighted-product-card{
+    width: 350px;
+    height: 460px;
+    background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTZIu65uVaES-fg9pwlHu2at7MSlIeurBKPhpa1h7kbxn7TFufG");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow:none;
+}
+
+.sells-card{
+     width: 300px;
+    height: 460px;
+    display: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(233, 231, 231);
+    transition: transform .3s ease;
+}
+                          
+                               /*SECOND SELLS METHODS OF CSS........*/
+
+}

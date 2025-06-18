@@ -1,0 +1,84 @@
+.category-section{
+    width: 96%;
+    height: 300px;
+    margin-left: 2rem;
+    margin-top: 20px;
+}
+
+.category-card{
+    width: 86%;
+    height: 250px;
+    border: 1px solid rgb(204, 201, 201);
+    transition: transform .3s ease;
+    
+}
+.category-card:hover{
+    border: 1px solid green;
+    transform:translateX(-5px);
+    cursor: pointer;
+}
+.category-card img{
+    padding: 2px;
+    width: 80%;
+    height: 160px;
+    text-align: center;
+    margin-left: 15px;
+    background: none;
+    margin-top: 15px;
+}
+.category-card p{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(102, 101, 101);
+    text-transform: capitalize;
+}
+                                              /*SECOND METHOD OF CSS....*/
+
+           
+@media screen and (max-width:428px){
+    .category-section{
+    width: 96%;
+    height: 300px;
+    margin-left:8px;
+    margin-top: 20px;
+}
+
+.category-card{
+    width: 90%;
+    height: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid rgb(204, 201, 201);
+    transition: transform .3s ease;
+    border-radius:5px;
+    
+}
+.category-card:hover{
+    border: 1px solid green;
+    transform:translateX(-5px);
+    cursor: pointer;
+}
+.category-card img{
+    padding: 2px;
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    margin-left: 10px;
+    background: none;
+    margin-top: 15px;
+}
+.category-card p{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+    text-transform: capitalize;
+}
+
+                             /*SECOND METHOD OF CSS....*/
+
+
+    
+}
