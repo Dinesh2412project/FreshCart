@@ -1,14 +1,21 @@
-import Carousel from 'react-bootstrap/Carousel';
-import './head.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Carousel from "react-bootstrap/Carousel";
+import Slides from '../../assets/Store/HeadingData.js';
+import HeadingCard from "../../../src/Components/head/HeadingCard.jsx";
+import "./style.css";
 
 const Head = () => {
   return (
-    <div className='head-section'>
+    <div className="head-section">
+      <Carousel data-bs-theme="dark">
+        {Slides.map((slide, idx) => (
+          <HeadingCard key={idx} slide= {slide}/>
+        ))}
+      </Carousel>
+    </div>
+  );
 
-        <Carousel data-bs-theme="dark">
+   {
+     /* <Carousel data-bs-theme="dark">
       <Carousel.Item>
         <img
           className="carousel-imag"
@@ -48,9 +55,8 @@ const Head = () => {
             <button className='carousel-button'>shop now</button>
         </div>
       </Carousel.Item>
-    </Carousel>
-    </div>
-  )
-}
+    </Carousel>...*/
+  }
+};
 
-export default Head
+export default Head;

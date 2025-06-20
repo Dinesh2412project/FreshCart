@@ -1,0 +1,103 @@
+.promotion-banner {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 260px;
+  gap: 20px;
+  margin-top: 30px;
+}
+.promo-fruits {
+  width: 46%;
+  height: 200px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: blue;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7GxXfBWxrty3-8QqZUOGtvwHJXjrzy0FrsjQBJoTzPtqfGFc7");
+  background-position: center;
+  background-size: cover;
+}
+.promo-fruits h2 {
+  margin: 20px;
+  font-size: 27px;
+  font-weight: 700;
+}
+.promo-fruits p {
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: gray;
+}
+.promo-fruits button {
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  background-color: #192a56;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.promo-bakery h2 {
+  margin: 20px;
+  font-size: 27px;
+  font-weight: 700;
+}
+.promo-bakery p {
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: gray;
+}
+.promo-bakery button {
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  background-color: #192a56;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.promo-bakery {
+  width: 46%;
+  height: 200px;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: green;
+  background-image: url("https://insulinoutlet.com/wp-content/uploads/2021/12/basket-with-various-white-whole-grain-bread-scaled-1024x684.jpg");
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (max-width: 428px) {
+  .promotion-banner {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 500px;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .promo-fruits {
+    width: 95%;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 0;
+    border-radius: 20px;
+    background-color: blue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7GxXfBWxrty3-8QqZUOGtvwHJXjrzy0FrsjQBJoTzPtqfGFc7");
+    background-position: center;
+    background-size: cover;
+  }
+  .promo-bakery {
+    width: 95%;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-left: 10px;
+    background-color: green;
+    background-image: url("https://insulinoutlet.com/wp-content/uploads/2021/12/basket-with-various-white-whole-grain-bread-scaled-1024x684.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}

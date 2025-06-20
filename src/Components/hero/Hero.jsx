@@ -1,36 +1,31 @@
+import "./style.css";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
 
-import './Hero.css';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Link } from 'react-router-dom';
-
-
-function   NavScrollExample() {
+function NavScrollExample() {
   return (
     <Navbar expand="lg" className="bg-body-">
-      <Container className='hero-head' fluid>
-        <Navbar.Brand className='hero-heading' href="#"><Link className='heading' to={"/"}>All deportments </Link></Navbar.Brand>
+      <Container className="hero-head" fluid>
+        <Navbar.Brand className="hero-heading" href="#">
+          <Link className="heading" to={"/"}>
+            All deportments{" "}
+          </Link>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '400px' }}
+            style={{ maxHeight: "400px" }}
             navbarScroll
           >
-            
-           <NavDropdown title="Home" id="navbarScrollingDropdown">
-            <Link to={"/"}>Home</Link>
-              <NavDropdown.Item href="#action4">
-                home Default
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                home Morden
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                home Creative
-              </NavDropdown.Item>
+            <NavDropdown title="Home" id="navbarScrollingDropdown">
+              <Link to={"/"}>Home</Link>
+              <NavDropdown.Item href="#action4">home Default</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">home Morden</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">home Creative</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 home Local store
               </NavDropdown.Item>
@@ -39,7 +34,7 @@ function   NavScrollExample() {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Shop" id="navbarScrollingDropdown"> 
+            <NavDropdown title="Shop" id="navbarScrollingDropdown">
               <Link to={"/Shop"}>Shop</Link>
               <NavDropdown.Item href="#action4">
                 Another action
@@ -49,8 +44,8 @@ function   NavScrollExample() {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Stores" id="navbarScrollingDropdown"> 
-              <Link to={"/Store"}>Store</Link>            
+            <NavDropdown title="Stores" id="navbarScrollingDropdown">
+              <Link to={"/Store"}>Store</Link>
               <NavDropdown.Item href="#action4">
                 Another action
               </NavDropdown.Item>
@@ -96,7 +91,6 @@ function   NavScrollExample() {
               docs
             </Nav.Link>
           </Nav>
-        
         </Navbar.Collapse>
       </Container>
     </Navbar>

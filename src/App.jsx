@@ -7,6 +7,7 @@ import Page from './pages/page/Page.jsx';
 import MegaMenu from './pages/megaMenu/MegaMenu.jsx';
 import Account from './pages/account/Account.jsx'
 import Navbar from '../src/Components/navbar/Navbar.jsx';
+import Hero from '../src/Components/hero/Hero.jsx';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <> 
     <BrowserRouter>
     <Navbar/>
+    <Hero/>
     <Routes>
       <Route path="/" element ={<Home/>} />
       <Route path="/Shop" element ={<Shop/>} />
