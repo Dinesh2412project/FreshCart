@@ -1,21 +1,11 @@
 import Carousel from "react-bootstrap/Carousel";
-import Slides from '../../assets/Store/HeadingData.js';
-import HeadingCard from "../../../src/Components/head/HeadingCard.jsx";
 import "./style.css";
 
 const Head = () => {
   return (
-    <div className="head-section">
-      <Carousel data-bs-theme="dark">
-        {Slides.map((slide, idx) => (
-          <HeadingCard key={idx} slide= {slide}/>
-        ))}
-      </Carousel>
-    </div>
-  );
 
-   {
-     /* <Carousel data-bs-theme="dark">
+
+    <Carousel data-bs-theme="dark">
       <Carousel.Item>
         <img
           className="carousel-imag"
@@ -23,10 +13,10 @@ const Head = () => {
           alt="Second slide"
         />
         <div className="carousel-caption">
-            <h6 className="promo-tagline">for shiping -order over $100</h6>
-            <h1 className="carousel-heading">for shipping on orders over $100</h1>
-            <p className="carousel-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia sint quia libero corporis!</p>
-            <button className='carousel-button'>shop now</button>
+          <h6 className="promo-tagline">for shiping -order over $100</h6>
+          <h1 className="carousel-heading">for shipping on orders over $100</h1>
+          <p className="carousel-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia sint quia libero corporis!</p>
+          <button className='carousel-button'>shop now</button>
         </div>
       </Carousel.Item>
       <Carousel.Item>
@@ -36,10 +26,10 @@ const Head = () => {
           alt="Second slide"
         />
         <div className="carousel-caption">
-            <h6 className='promo-tagline'>for shiping -order over $100</h6>
-            <h1 className='carousel-heading'>supre market for fresh grocery</h1>
-            <p className='carousel-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia sint quia libero corporis!</p>
-            <button className='carousel-button'>shop now</button>
+          <h6 className='promo-tagline'>for shiping -order over $100</h6>
+          <h1 className='carousel-heading'>supre market for fresh grocery</h1>
+          <p className='carousel-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia sint quia libero corporis!</p>
+          <button className='carousel-button'>shop now</button>
         </div>
       </Carousel.Item>
       <Carousel.Item>
@@ -49,14 +39,14 @@ const Head = () => {
           alt="Third slide"
         />
         <div className="carousel-caption">
-            <h6 className='promo-tagline'>for shiping -order over $100</h6>
-            <h1 className='carousel-heading'>for shipping on orders over <span className="highlight">$100</span></h1>
-            <p className='carousel-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia sint quia libero corporis!</p>
-            <button className='carousel-button'>shop now</button>
+          <h6 className='promo-tagline'>for shiping -order over $100</h6>
+          <h1 className='carousel-heading'>for shipping on orders over <span className="highlight">$100</span></h1>
+          <p className='carousel-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia sint quia libero corporis!</p>
+          <button className='carousel-button'>shop now</button>
         </div>
       </Carousel.Item>
-    </Carousel>...*/
-  }
-};
+    </Carousel>
+  )
+}
 
 export default Head;
